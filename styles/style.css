@@ -17,6 +17,7 @@ nav{
     color: #131313;
     font-size: 24px;
     height: 94px; 
+    /* width: 1440px; */
 }
 .logo{
     display: flex;
@@ -123,6 +124,7 @@ nav{
 .feature-info{
     width: 537px;
     height: 304px;
+    text-align: left;
 }
 .feature-title{
     font-size: 45px;
@@ -144,6 +146,7 @@ nav{
     color:#727272;
     font-size: 16px;
     font-weight: 400;
+
 }
 
 /* feature list */
@@ -163,7 +166,8 @@ nav{
 .feature-list .desc{
     color: #727272;
     font-weight: 400;
-font-size: 16px;
+    font-size: 16px;
+    
 }
 .side-img img{
     width: 600px;
@@ -212,18 +216,90 @@ font-size: 25px;
 .facts{
     margin-top: 150px;
 }
-.facts h2,p{
+.facts .feature-title, .fact-desc{
+    margin-left: 150px;
 
+}
+.facts .feature-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.facts .fact-desc{
+    color:#727272;
+    font-size: 16px;
+    font-weight: 400;
 }
 .cards{
     display: flex;
     gap: 60px;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 110px;
 }
 .card{
     border: 1px solid #FF900E;
     text-align: center;
     padding: 30px;
+    border-radius: 8px;
+}
+.card-title{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+.card-text{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+/* Sponsor */
+.sponsor-info{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.sponsor-title{
+    font-weight: 700;
+}
+.sponsor-info p{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+.sponsor-box{
+    display: flex;
+    align-items: center;
+}
+.logo-sponsor{
+    width: 135.83px;
+    height: 50px;
+    margin-left: 110px;
+}
+/* Footer */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 144, 14, 0.1);
+    margin-top: 150px;
+    width: 1200px;
+    height: 80px;
+    margin-bottom: 50px;
+    
+}
+.footer-text{
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
 }
