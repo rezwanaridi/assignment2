@@ -362,3 +362,38 @@ footer{
     font-size: 20px;
     color: #424242;
 }
+
+/* Responsive */
+@media screen and (max-width:576px) {
+    body{
+        width: 100%;
+    }
+    header{
+        width: 1250px;
+    }
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .links, .logo, .cards, .sponsor-box, .contact-us{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        
+    }
+    .brand-intro{
+        margin: 0;
+    }
+    .banner-img{
+       display: flex;
+       justify-content: center;
+    }
+    .feature{
+        flex-direction: column;
+    }
+    .feature-img{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
