@@ -24,13 +24,13 @@ nav{
     align-items: center;
     font-size: 45px;
     font-weight: 700;
-    margin-left: 180px;
+    margin-left: 160px;
 }
 .links{
     display: flex;
     align-items: center;
-    padding-right: 200px;
-  
+    /* padding-right: 200px; */
+    padding-right: 100px;
 }
 .links a{
     text-decoration: none;
@@ -243,6 +243,11 @@ font-size: 25px;
     padding: 30px;
     border-radius: 8px;
 }
+.card:hover{
+    border: 2px solid red;
+    background: #e7e5e5c0;
+    transform: scale(1.1);
+}
 .card-title{
     font-weight: 600;
     font-size: 45px;
@@ -280,6 +285,60 @@ font-size: 25px;
     height: 50px;
     margin-left: 110px;
 }
+
+
+/* Contact us */
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.con-title{
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 80px;
+    font-weight: 300;
+    font-size: 35px;
+}
+.contact-us{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid salmon;
+    width:1000px;
+    
+}
+.left{
+    border-right: 1px dashed salmon;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fd8282;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 50px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.right input{
+    width: 280px;
+    height:30px;
+    margin-bottom: 10px;
+}
+input:focus{
+    color: #fd8282;;
+}
+
 /* Footer */
 footer{
     display: flex;
